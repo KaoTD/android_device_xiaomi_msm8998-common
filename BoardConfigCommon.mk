@@ -219,3 +219,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from proprietary files
 include vendor/xiaomi/msm8998-common/BoardConfigVendor.mk
+
+# use Clang for kernel
+TARGET_KERNEL_CLANG_COMPILE := true
